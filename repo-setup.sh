@@ -6,6 +6,7 @@ mv RepoAutomation/git-pull.sh $(pwd)
 mv RepoAutomation/git-remote-fetch $(pwd)
 
 chmod +x *.sh
+chmod +x git-remote-fetch
 
 chmod +x Scripts-For-Dev-Env/*.py
 
@@ -13,5 +14,7 @@ cd AI-Bash-Assistant-Prototype
 fedpkg clone -a kernel
 cd /home/src
 
+rm -rf Container-Repo-Automation
+rm -rf RepoAutomation
 
 
