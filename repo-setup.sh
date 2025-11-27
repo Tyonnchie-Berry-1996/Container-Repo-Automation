@@ -1,4 +1,4 @@
 mv *.sh /home/src
-cd ../
+cd /home/src
 
 
