@@ -11,6 +11,8 @@ chmod +x git-remote-fetch
 chmod +x Scripts-For-Dev-Env/*.py
 
 cd AI-Bash-Assistant-Prototype
+chmod +x arches.sh
+
 fedpkg clone -a kernel
 cd /home/src
 
